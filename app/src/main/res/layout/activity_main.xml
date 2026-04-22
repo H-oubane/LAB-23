@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvStatut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statut securite"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSalutation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salutation JNI"
+            android:textSize="20sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvCalcul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Factoriel"
+            android:textSize="20sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvInverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inversion"
+            android:textSize="20sp"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somme tableau"
+            android:textSize="20sp"
+            android:paddingBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>
